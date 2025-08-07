@@ -1,1 +1,101 @@
-Hello!
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Annymoose - personal page
+    </title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            border-radius: 20px;    
+            padding: 15px;
+            padding-left: 20px;
+            padding-right: 20px;
+            column-gap: 12px;
+            row-gap: 12px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            object-fit: contain;
+
+        }
+
+        .MainView {
+            flex-direction: column;
+            background-color: var(--col1);
+            box-sizing: border-box;
+        }
+
+        .ProfilePic img {
+            border-radius: 100%;
+            max-width: 128px;
+            min-width: 128px;
+            vertical-align: middle;
+        }
+
+        :root {
+            --col1: rgb(255, 205, 178);
+            --col2: rgb(255, 180, 162);
+            --col3: rgb(229, 152, 155);
+            --col4: rgb(181, 130, 140);
+        }
+
+        * {
+            font-family: sans-serif;
+            font-size: 24px;
+        }
+
+        body {background-color: var(--col4);}
+        h1 {color: black; font-size: 42px;}
+        h2 {font-size: 36px; margin: 0;}
+
+    </style>
+</head>
+<body>
+    <div class="container MainView">
+        <div class="container" style="flex-direction: row; background-color: rgba(255,255,255,0.2);">
+            <div class="ProfilePic" >
+                <img src="profile-picture.png" alt="Profile Picture - Dante from devil may cry, drawn in the Lucky Star artstyle">
+            </div>
+            <h1>Annymoose</h1>
+        </div>
+        <h1 style="font-size: 64px;">Welcome!</h1>
+        <h2>About me</h2>
+        <span>
+            I come from 🇺🇦 <br>
+            <a href="https://github.com/dzmtrzz">I code sometimes</a>. <br>
+            Am a <a href="https://osu.ppy.sh/users/11143239">professional noob</a> at osu!standard <br>
+            <span>
+                I have some knowledge about GTA:SA speedrunning. <br>
+                <div style="font-size: 10px;">a.k.a i sometimes watch it on youtube</div>
+            </span>
+            <br>
+            I also am a bit of an Operating Systems nerd
+            <div style="font-size: 10px;">just a bit</div> <br>
+            <span style="font-size: 30px;">Here is a non-exhaustive list of other things i am interested in:</span> <br>
+            Console hacking <br>
+            Did i mention videogames? <br>
+            DIY tech <br>
+            Tech in general <br>
+            
+            <br>
+            <br>
+            <div style="font-size: 10px;">Damn, am i really <b style="font-size: 10px;">THAT</b> boring?</div>
+        </span>
+        <br>
+        <h2>Other stuff</h2>
+        <span>
+            Since this is MY website — i get to show off a little <br> Here are some screenshots of my desktop (niri wm) <br>
+            <img src="desktop-empty.png" style="max-width: 80vw;"> 
+            <img src="desktop-tiling.png" style="max-width: 80vw;">
+            <img src="desktop-floating.png" style="max-width: 80vw;">
+        </span>
+        <h2>Contact info</h2>
+        <span>
+            If you ever need to reach out to me, you can do so via multiple platforms, those being <h3>Discord (@annymoose_)<br>
+            Signal (@annymoose.23)</h3>
+        </span>
+    </div>
+</body>
+</html>
