@@ -87,7 +87,7 @@ for i in posts:
     title_ugly = str(i.title)
     title_ugly = title_ugly.lower().replace(' ', '+')
     f = open(f"blogs/{title_ugly}.html", "w")
-    f.write(f"<!DOCTYPE html><html lang=\"en\"><head><title>{i.title}</title><link rel=\"stylesheet\" href=\"style.css\"></head><body><div class=\"container MainView\"><span>")
+    f.write(f"<!DOCTYPE html><html lang=\"en\"><head><title>{i.title}</title><link rel=\"stylesheet\" href=\"../style.css\"></head><body><div class=\"container MainView\"><span>")
     f.write(i.ToHTML())
     f.write("</span></div></body></html>")
     f.flush()

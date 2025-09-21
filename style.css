@@ -33,6 +33,6 @@
     font-size: 24px;
 }
 
-body {background-image:url('../blog_bg.jpg');}
+body {background-image:url('bg.jpg');}
 h1 {color: black; font-size: 42px;}
 h2 {font-size: 36px; margin: 0;}
