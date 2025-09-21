@@ -17,7 +17,7 @@ class Image:
         self.url = str(url)
 
     def ToHTML(self):
-        html = f"<img src=\"{self.url}\">"
+        html = f"<img src=\"{self.url}\"><br>"
         return html
     
 class Text:
