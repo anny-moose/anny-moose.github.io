@@ -34,7 +34,11 @@
 }
 
 code {
-  font-family: monospace;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-family: monospace;
 }
 
 body {background-image:url('bg.jpg');}
