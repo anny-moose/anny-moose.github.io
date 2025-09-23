@@ -33,6 +33,10 @@
     font-size: 18px;
 }
 
+span {
+    max-width: 80vw;
+}
+
 code {
     background-color: #f4f4f4;
     border: 1px solid #ddd;
